@@ -1,0 +1,175 @@
+<!--
+Design by Michal Karell
+
+Name       : Teaching Portfolio
+Description: Has information about me as a teacher
+Version    : 3.1
+Released   : 04/09/24
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for SEO and character encoding -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    
+    <!-- Title of the webpage -->
+    <title>Teaching Portfolio</title>
+    
+    <!-- Link to external CSS file -->
+    <link href="index.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+    <!-- Wrapper for the menu/navigation bar -->
+    <div id="menu-wrapper">
+        <div id="menu">
+            <ul>
+                <!-- Navigation links -->
+                <li class="current_page_item"><a href="index.html">Homepage</a></li>
+                <li><a href="about me.html">About Me</a></li>
+                <li><a href="Professional Experience.html">Professional Experience</a></li>
+                <li><a href="Teaching Materials.html">Teaching Materials</a></li>
+                <li><a href="Technology Integration.html">Technology Integration</a></li>
+                <li><a href="Contact Info.html">Contact Info</a></li>
+            </ul>
+        </div>
+        <!-- end #menu -->
+    </div>
+
+    <!-- Wrapper for the header section -->
+    <div id="header-wrapper">
+        <div id="header">
+            <div id="logo">
+                <!-- Website title and designer credit -->
+                <h1>Teaching Portfolio</h1>
+                <a>Design by Michal Jan Karell</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner image section -->
+    <div id="banner"><img src="images/classroom.jpg" width="1000" height="400" alt="" /></div>
+
+    <!-- Main content wrapper -->
+    <div id="wrapper">
+        <!-- Page content -->
+        <div id="page">
+            <div id="page-bgtop">
+                <div id="page-bgbtm">
+                    <div id="content">
+                        <!-- First post: Welcome message -->
+                        <div class="post">
+                            <h2 class="title"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Welcome </a></h2>
+                            <div style="clear: both;">&nbsp;</div>
+                            <div class="entry">
+                                <!-- Brief introduction to the portfolio -->
+                                <a>I have compiled a mini teaching portfolio on this website, showcasing my work over the years, along with ways to contact me and more information about myself.</a>
+                            </div>
+                        </div>
+
+                        <!-- Second post: Teaching Philosophy -->
+                        <div class="post">
+                            <h2 class="title">My Teaching Philosophy</a></h2>
+                            <div class="entry">
+                                <!-- Detailed description of teaching philosophy -->
+                                <a>I believe that education is more than just the transmission of knowledge; 
+                                    it is the cultivation of curiosity, critical thinking, and a lifelong love 
+                                    of learning. My classroom is a dynamic space where students are empowered 
+                                    to explore, question, and challenge ideas, transforming them into active 
+                                    participants in their own educational journey.
+
+                                    I strive to create an inclusive environment where every student feels valued 
+                                    and motivated to contribute. By integrating real-world applications and hands-on 
+                                    experiences, I connect theoretical concepts to everyday life, making learning
+                                    relevant and engaging. I am committed to fostering creativity and resilience,
+                                    encouraging students to take risks and view mistakes as opportunities for growth.
+                                    
+                                    Collaboration and communication are at the heart of my teaching. I encourage 
+                                    students to work together, share perspectives, and learn from one another, 
+                                    preparing them for the interconnected world beyond the classroom. Technology
+                                    plays a crucial role in my approach, as I leverage digital tools to enhance 
+                                    learning, provide personalized feedback, and inspire innovation.
+                                    
+                                    Ultimately, my goal is to equip students with the skills and confidence they
+                                    need to succeed in an ever-changing world, while nurturing a passion for learning
+                                    that will stay with them long after they leave my classroom.</a>
+                            </div>
+
+                            <!-- Section for user comments -->
+                            <h3>What  you  thing  about  my  website?  Leave  a  Comment</h3>
+                            <form id="commentForm">
+                                <!-- Input fields for name and comment -->
+                                <label for="name">Name:</label><br>
+                                <input type="text" id="name" name="name" required><br><br>
+
+                                <label for="comment">Comment:</label><br>
+                                <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br><br>
+                                <input type="submit" value="Submit">
+                            </form> 
+
+                            <!-- Display section for comments -->
+                            <div id="commentSection">
+                                <h3>Comments</h3>
+                            </div>
+
+                            <!-- Script to handle comment submission and display -->
+                            <script>
+                                document.getElementById("commentForm").addEventListener("submit", function(event) {
+                                    event.preventDefault();
+
+                                    var name = document.getElementById("name").value;
+                                    var comment = document.getElementById("comment").value;
+
+                                    var commentSection = document.getElementById("commentSection");
+
+                                    var newComment = document.createElement("div");
+                                    newComment.innerHTML = "<strong>" + name + ":</strong><p>" + comment + "</p><hr>";
+                                    
+                                    commentSection.appendChild(newComment);
+                                });
+                            </script>
+                        </div>
+                        <div style="clear: both;">&nbsp;</div>
+                    </div>
+                    <!-- end #content -->
+
+                    <!-- Sidebar section with additional information -->
+                    <div id="sidebar">
+                        <ul>
+                            <li>
+                                <!-- Favorite quote section -->
+                                <h1>Favorite Quote</h1>
+                                <p>"Education is the most powerful weapon which you can use to change the world." – Nelson Mandela</p>
+                            </li>
+                            <li>
+                                <!-- Skills list -->
+                                <h2>Skills</h2>
+                                <ul>
+                                    <li>Lesson Planning and Curriculum Design</li>
+                                    <li>Classroom Management and Student Engagement</li>
+                                    <li>Technology Integration in Education</li>
+                                    <li>Differentiated Instruction for Diverse Learners</li>
+                                    <li>Assessment and Feedback Strategies</li>
+                                    <li>Collaborative Learning and Team Teaching</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- end #sidebar -->
+                    <div style="clear: both;">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+        <!-- end #page -->
+    </div>
+
+    <!-- Footer section with copyright and additional text -->
+    <div id="footer">
+        <p>&copy; 2024 Michal Jan Karell | Teaching Portfolio</p>
+        <p>"Inspiring the future, one student at a time."</p>
+    </div>
+    <!-- end #footer -->
+</body>
+</html>

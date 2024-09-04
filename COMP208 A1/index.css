@@ -1,0 +1,322 @@
+/* General body styling */
+body {
+	margin: 0; /* Remove default margin */
+	padding: 0; /* Remove default padding */
+	background: #e5e9e7; /* Set background color */
+	font-family: Arial, Helvetica, sans-serif; /* Set default font */
+	font-size: 14px; /* Set default font size */
+	color: #030304; /* Set default text color */
+}
+
+/* Styling for headings (h1, h2, h3) */
+h1, h2, h3 {
+	margin: 0px; /* Remove default margin */
+	padding: 0px; /* Remove default padding */
+	letter-spacing: 1px; /* Add spacing between letters */
+	font-family: 'Arvo', serif; /* Use 'Arvo' font for headings */
+	font-weight: normal; /* Set normal font weight */
+	color: #070707; /* Set text color */
+}
+
+/* Specific heading sizes */
+h1 {
+	font-size: 2em; /* Set font size for h1 */
+}
+
+h2 {
+	font-size: 2.4em; /* Set font size for h2 */
+}
+
+h3 {
+	font-size: 1.6em; /* Set font size for h3 */
+}
+
+/* Styling for paragraphs, unordered and ordered lists */
+p, ul, ol {
+	margin-top: 0; /* Remove top margin */
+	line-height: 180%; /* Set line height for readability */
+}
+
+/* Styling for links */
+a {
+	text-decoration: none; /* Remove underline from links */
+	color: #040404; /* Set link color */
+}
+
+/* Header styling */
+#header {
+	clear: both; /* Clear floats */
+	width: 1000px; /* Set header width */
+	margin: 0px auto; /* Center header */
+}
+
+/* Logo styling */
+#logo {
+	margin: 0px; /* Remove default margin */
+	padding: 30px 0px; /* Add padding around the logo */
+	color: #000000; /* Set text color */
+}
+
+#logo h1 {
+	margin: 0px; /* Remove default margin */
+	padding: 0px; /* Remove default padding */
+	font-size: 3.8em; /* Set font size for logo text */
+	color: #370a0a; /* Set color for logo text */
+}
+
+#logo h1 span {
+	color: #0285CE; /* Set color for the span inside logo h1 */
+}
+
+#logo p {
+	margin: 0px; /* Remove default margin */
+	padding: 0px; /* Remove default padding */
+	font-family: 'Arvo', serif; /* Use 'Arvo' font for logo description */
+	color: #3B3B3B; /* Set text color */
+}
+
+#logo p a {
+	color: #3B3B3B; /* Set link color within logo description */
+}
+
+#logo a {
+	border: none; /* Remove border */
+	background: none; /* Remove background */
+	text-decoration: none; /* Remove underline */
+	color: #323030; /* Set link color */
+}
+
+/* Styling for images inside the banner */
+#banner img {
+	border-radius: 15px; /* Create rounded corners for images */
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5); /* Add shadow to images */
+}
+
+/* Menu wrapper styling */
+#menu-wrapper {
+	overflow: hidden; /* Hide overflow */
+	height: 56px; /* Set height for the menu wrapper */
+	background: #EDEDED; /* Set background color */
+}
+
+/* Menu styling */
+#menu {
+	width: 1350px; /* Set menu width */
+	height: 55px; /* Set menu height */
+	margin: 0px auto; /* Center menu */
+	padding: 0px; /* Remove default padding */
+	align-items: center; /* Center content vertically */
+	justify-content: center; /* Center content horizontally */
+}
+
+#menu ul {
+	margin: 0; /* Remove default margin */
+	padding: 0px; /* Remove default padding */
+	list-style: none; /* Remove list bullets */
+	line-height: normal; /* Set normal line height */
+}
+
+/* Styling for menu items */
+#menu li {
+	float: left; /* Float menu items to the left */
+	border-right: 1px solid #FFFFFF; /* Add border between items */
+}
+
+#menu a {
+	display: block; /* Make links block-level */
+	letter-spacing: 1px; /* Add spacing between letters */
+	line-height: 55px; /* Set line height */
+	padding: 0px 30px; /* Add padding inside links */
+	text-decoration: none; /* Remove underline from links */
+	text-align: center; /* Center text horizontally */
+	text-transform: uppercase; /* Make text uppercase */
+	font-family: 'Arvo', serif; /* Use 'Arvo' font */
+	font-size: 14px; /* Set font size */
+	font-weight: normal; /* Set normal font weight */
+	color: #3B3B3B; /* Set link color */
+	border: none; /* Remove border */
+}
+
+/* Styling for menu links on hover and current page item */
+#menu a:hover, #menu .current_page_item a {
+	background: #000000; /* Change background color on hover */
+	text-decoration: none; /* Remove underline */
+	color: #FFFFFF; /* Change text color on hover */
+}
+
+#menu .current_page_item a {
+	background: #000000; /* Set background color for current page item */
+}
+
+/* Page styling */
+#page {
+	overflow: hidden; /* Hide overflow */
+	width: 940px; /* Set page width */
+	margin: 0px auto; /* Center page */
+	padding: 30px 30px; /* Add padding around the page */
+	background-color: #ffffff; /* Set background color */
+	border-radius: 15px; /* Create rounded corners */
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5); /* Add shadow to the page */
+}
+
+/* Content area styling */
+#content {
+	float: left; /* Float content to the left */
+	width: 640px; /* Set content width */
+}
+
+/* Post styling */
+.post {
+	margin-bottom: 15px; /* Add margin below each post */
+	border-bottom: 1px dashed #D8D8D8; /* Add dashed border below each post */
+}
+
+/* Title styling within posts */
+.post .title {
+	height: 38px; /* Set height for the title */
+	margin-bottom: 10px; /* Add margin below the title */
+	padding: 12px 0 0 0px; /* Add padding above the title */
+	font-size: 32px; /* Set font size for the title */
+}
+
+.post .title a {
+	border: none; /* Remove border */
+	color: #000000; /* Set title link color */
+}
+
+/* Meta information styling within posts */
+.post .meta {
+	margin-bottom: 30px; /* Add margin below meta information */
+	padding: 5px 0px 15px 0px; /* Add padding around meta information */
+	text-align: left; /* Align text to the left */
+	font-weight: normal; /* Set normal font weight */
+}
+
+/* Date and posted by styling within meta information */
+.post .meta .date {
+	float: left; /* Float date to the left */
+}
+
+.post .meta .posted {
+	float: right; /* Float posted by information to the right */
+}
+
+/* Entry content styling within posts */
+.post .entry {
+	padding: 0px 0px 20px 0px; /* Add padding below the entry */
+	padding-bottom: 20px; /* Additional padding below the entry */
+	text-align: justify; /* Justify text */
+}
+
+/* Links section styling within posts */
+.links {
+	height: 30px; /* Set height for the links section */
+	padding: 30px 0px 0px 0px; /* Add padding above the links section */
+	font-size: 14px; /* Set font size */
+	font-weight: normal; /* Set normal font weight */
+	color: #1C1C1C; /* Set text color */
+}
+
+/* Sidebar styling */
+#sidebar {
+	float: right; /* Float sidebar to the right */
+	width: 270px; /* Set sidebar width */
+	margin: 0px; /* Remove default margin */
+	padding: 30px 0px 0px 0px; /* Add padding above the sidebar */
+	color: #000000; /* Set text color */
+}
+
+/* Sidebar list styling */
+#sidebar ul {
+	margin: 0; /* Remove default margin */
+	padding: 0; /* Remove default padding */
+	list-style: none; /* Remove list bullets */
+}
+
+/* Sidebar list item styling */
+#sidebar li {
+	margin: 0; /* Remove default margin */
+	padding: 0; /* Remove default padding */
+}
+
+/* Nested list styling within sidebar */
+#sidebar li ul {
+	margin: 0px 0px; /* Remove default margin */
+	padding-bottom: 50px; /* Add padding below nested list */
+}
+
+/* List item styling within nested list */
+#sidebar li li {
+	border-bottom: 1px dashed #D8D8D8; /* Add dashed border below each nested list item */
+	margin: 0px 0px; /* Remove default margin */
+	padding: 5px 0px; /* Add padding around nested list item */
+	border-left: none; /* Remove left border */
+}
+
+#sidebar li li a {
+	color: #3B3B3B; /* Set link color within nested list */
+}
+
+#sidebar li li span {
+	display: block; /* Make span block-level */
+	padding: 0; /* Remove default padding */
+	font-size: 11px; /* Set font size */
+	font-style: italic; /* Make text italic */
+}
+
+/* Sidebar heading styling */
+#sidebar h2 {
+	padding-bottom: 20px; /* Add padding below heading */
+	font-size: 1.8em; /* Set font size */
+	color: #000000; /* Set text color */
+}
+
+/* Sidebar paragraph styling */
+#sidebar p {
+	margin: 0px 0px 40px 0px; /* Add margin below paragraph */
+	padding: 0px; /* Remove default padding */
+	text-align: justify; /* Justify text */
+}
+
+/* Sidebar link styling */
+#sidebar a {
+	border: none; /* Remove border */
+}
+
+#sidebar a:hover {
+	text-decoration: underline; /* Underline link on hover */
+}
+
+/* Footer styling */
+#footer {
+	overflow: hidden; /* Hide overflow */
+	height: 60px; /* Set footer height */
+	margin: 0 auto; /* Center footer */
+	padding: 0px 0 15px 0; /* Add padding below footer */
+	background: #E9E9E9; /* Set background color */
+	border-top: 5px solid #D8D8D8; /* Add top border */
+	font-family: 'Arvo', serif; /* Use 'Arvo' font */
+}
+
+/* Footer paragraph styling */
+#footer p {
+	margin: 0; /* Remove default margin */
+	padding-top: 20px; /* Add padding above text */
+	line-height: normal; /* Set normal line height */
+	font-size: 12px; /* Set font size */
+	letter-spacing: 2px; /* Add spacing between letters */
+	text-transform: uppercase; /* Make text uppercase */
+	text-align: center; /* Center text */
+	color: #A0A0A0; /* Set text color */
+}
+
+/* Footer link styling */
+#footer a {
+	color: #8A8A8A; /* Set link color */
+}
+
+/* Banner styling */
+#banner {
+	width: 1000px; /* Set banner width */
+	margin: 0px auto; /* Center banner */
+}

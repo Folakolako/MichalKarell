@@ -1,0 +1,176 @@
+/* Menu */
+
+/* Wrapper for the navigation menu */
+#menu-wrapper {
+	overflow: hidden; /* Ensures that the content does not overflow the container */
+	height: 56px; /* Sets the height of the menu wrapper */
+	background: #EDEDED; /* Light grey background color */
+}
+
+/* Main menu container */
+#menu {
+	width: 1350px; /* Sets the width of the menu */
+	height: 55px; /* Sets the height of the menu */
+	margin: 0px auto; /* Centers the menu horizontally */
+	padding: 0px; /* No padding inside the menu */
+	align-items: center; /* Centers the menu items vertically */
+    justify-content: center; /* Centers the menu items horizontally */
+}
+
+/* Unordered list inside the menu */
+#menu ul {
+	margin: 0; /* Removes default margin */
+	padding: 0px; /* Removes default padding */
+	list-style: none; /* Removes bullet points from list items */
+	line-height: normal; /* Sets line height to normal */
+}
+
+/* List items inside the menu */
+#menu li {
+	float: left; /* Floats list items to the left for horizontal alignment */
+	border-right: 1px solid #FFFFFF; /* Adds a white border to the right of each menu item */
+}
+
+/* Links inside the menu */
+#menu a {
+	display: block; /* Makes the link a block element */
+	letter-spacing: 1px; /* Adds spacing between letters */
+	line-height: 55px; /* Centers text vertically within the menu height */
+	padding: 0px 30px; /* Adds horizontal padding inside the link */
+	text-decoration: none; /* Removes underline from links */
+	text-align: center; /* Centers text horizontally */
+	text-transform: uppercase; /* Transforms text to uppercase */
+	font-family: 'Arvo', serif; /* Sets the font family */
+	font-size: 14px; /* Sets the font size */
+	font-weight: normal; /* Sets the font weight to normal */
+	color: #3B3B3B; /* Sets the text color */
+	border: none; /* Removes any border around the link */
+}
+
+/* Styling for links on hover and the current page item */
+#menu a:hover, #menu .current_page_item a {
+	background: #000000; /* Sets background color on hover and for the current page item */
+	text-decoration: none; /* Removes underline on hover */
+	color: #FFFFFF; /* Sets text color to white on hover and for the current page item */
+}
+
+/* Styling for the current page item link */
+#menu .current_page_item a {
+	background: #000000; /* Sets background color for the current page item */
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Sets the font family for the body */
+    background-color: #f4f4f4; /* Light grey background color for the body */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+/* Unordered list styling */
+ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes margin */
+}
+
+/* List item styling */
+li {
+    margin-bottom: 20px; /* Adds space below each list item */
+}
+
+/* Heading 2 styling */
+h2 {
+    margin-top: 0; /* Removes top margin */
+    color: #333; /* Dark grey color for the heading */
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.1em; /* Increases font size */
+    color: #666; /* Medium grey color for text */
+}
+
+/* Link styling */
+a {
+    color: #1a73e8; /* Blue color for links */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* Link hover styling */
+a:hover {
+    text-decoration: underline; /* Underlines the link on hover */
+}
+
+/* Container styling */
+.container {
+    display: flex; /* Uses flexbox layout */
+    justify-content: space-between; /* Aligns children with space between them */
+    align-items: flex-start; /* Aligns items at the top of the container */
+    width: 80%; /* Sets the container width to 80% of the parent element */
+    max-width: 1200px; /* Sets the maximum width of the container */
+    margin: 20px auto; /* Centers the container horizontally and adds vertical margin */
+    background-color: #fff; /* White background color */
+    padding: 20px; /* Adds padding inside the container */
+    border-radius: 15px; /* Rounds the corners of the container */
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5); /* Adds a shadow effect */
+}
+
+/* Unordered list inside the container */
+.container ul {
+    padding-left: 20px; /* Adds padding to the left of the list */
+}
+
+/* Content section inside the container */
+.content {
+    flex: 1; /* Allows this section to take up available space */
+    padding-right: 20px; /* Adds spacing between content and image */
+}
+
+/* Image container styling */
+.image-container {
+    flex: 0 0 600px; /* Sets the width of the image container */
+}
+
+/* Image inside the image container */
+.image-container img {
+    width: 100%; /* Ensures the image takes up the full width of its container */
+    height: auto; /* Maintains aspect ratio of the image */
+    border-radius: 8px; /* Optional: Adds rounded corners to the image */
+}
+
+/* Footer styling */
+
+/* Footer container */
+#footer {
+	overflow: hidden; /* Ensures that the content does not overflow the container */
+	height: 60px; /* Sets the height of the footer */
+	margin: 0 auto; /* Centers the footer horizontally */
+	padding: 0px 0 15px 0; /* Adds bottom padding */
+	background: #E9E9E9; /* Light grey background color */
+	border-top: 5px solid #D8D8D8; /* Adds a top border with a different grey color */
+	font-family: 'Arvo', serif; /* Sets the font family for the footer */
+}
+
+/* Paragraphs inside the footer */
+#footer p {
+	margin: 0; /* Removes margin */
+	padding-top: 20px; /* Adds top padding */
+	line-height: normal; /* Sets line height to normal */
+	font-size: 12px; /* Sets font size */
+	letter-spacing: 2px; /* Adds spacing between letters */
+	text-transform: uppercase; /* Transforms text to uppercase */
+	text-align: center; /* Centers text horizontally */
+	color: #A0A0A0; /* Light grey color for text */
+}
+
+/* Links inside the footer */
+#footer a {
+	color: #8A8A8A; /* Darker grey color for links */
+}
+
+/* Banner styling */
+#banner {
+	width: 1000px; /* Sets the width of the banner */
+	margin: 0px auto; /* Centers the banner horizontally */
+}

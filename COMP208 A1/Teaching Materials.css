@@ -1,0 +1,177 @@
+/* Menu */
+
+/* Styles for the menu wrapper, including background color and overflow */
+#menu-wrapper {
+	overflow: hidden; /* Ensures content does not overflow outside the container */
+	height: 56px; /* Sets the height of the menu wrapper */
+	background: #EDEDED; /* Light gray background color */
+}
+
+/* Styles for the menu container, including alignment and dimensions */
+#menu {
+	width: 1350px; /* Sets the width of the menu container */
+	height: 55px; /* Sets the height of the menu container */
+	margin: 0px auto; /* Centers the menu container horizontally */
+	padding: 0px; /* Removes default padding */
+	align-items: center; /* Vertically centers items within the menu container */
+    justify-content: center; /* Horizontally centers items within the menu container */
+}
+
+/* Styles for the unordered list within the menu */
+#menu ul {
+	margin: 0; /* Removes default margin */
+	padding: 0px; /* Removes default padding */
+	list-style: none; /* Removes default bullet points */
+	line-height: normal; /* Resets line height */
+}
+
+/* Styles for list items within the menu */
+#menu li {
+	float: left; /* Aligns list items horizontally */
+	border-right: 1px solid #FFFFFF; /* Adds a right border to each list item */
+}
+
+/* Styles for links within the menu */
+#menu a {
+	display: block; /* Makes the link a block-level element */
+	letter-spacing: 1px; /* Adds space between letters */
+	line-height: 55px; /* Sets the line height to match the height of the menu container */
+	padding: 0px 30px; /* Adds horizontal padding */
+	text-decoration: none; /* Removes underline from links */
+	text-align: center; /* Centers text within the link */
+	text-transform: uppercase; /* Transforms text to uppercase */
+	font-family: 'Arvo', serif; /* Sets the font family */
+	font-size: 14px; /* Sets the font size */
+	font-weight: normal; /* Sets font weight to normal */
+	color: #3B3B3B; /* Sets the text color */
+	border: none; /* Removes border */
+}
+
+/* Styles for the menu links on hover and for the current page */
+#menu a:hover, #menu .current_page_item a {
+	background: #000000; /* Sets background color on hover or for current page */
+	text-decoration: none; /* Ensures no underline on hover or for current page */
+	color: #FFFFFF; /* Sets text color on hover or for current page */
+}
+
+/* Styles for the current page menu item */
+#menu .current_page_item a {
+	background: #000000; /* Sets background color for the current page menu item */
+}
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif; /* Sets the font family */
+    background-color: #f4f4f4; /* Sets the background color */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+/* Styles for unordered lists */
+ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+/* Styles for list items */
+li {
+    margin-bottom: 20px; /* Adds space below each list item */
+}
+
+/* Styles for level 2 headings (h2) */
+h2 {
+    margin-top: 0; /* Removes top margin */
+    color: #333; /* Sets text color */
+    align-items: center; /* Centers items within the heading */
+}
+
+/* Styles for paragraphs */
+p {
+    font-size: 1.1em; /* Sets the font size */
+    color: #666; /* Sets text color */
+    align-items: center; /* Centers items within the paragraph */
+}
+
+/* Styles for links */
+a {
+    color: #1a73e8; /* Sets text color for links */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* Styles for links on hover */
+a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Styles for the container */
+.container {
+    display: flex; /* Uses flexbox layout */
+    justify-content: space-between; /* Aligns children (content and image) with space between them */
+    align-items: flex-start; /* Aligns items at the top of the container */
+    width: 80%; /* Sets the container width */
+    max-width: 1000px; /* Sets maximum width */
+    margin: 20px auto; /* Centers container horizontally and adds vertical margin */
+    background-color: #fff; /* Sets background color */
+    padding: 20px; /* Adds padding inside the container */
+    border-radius: 15px; /* Creates rounded corners */
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5); /* Adds a large shadow effect */
+}
+
+/* Styles for unordered lists within the container */
+.container ul {
+    padding-left: 20px; /* Adds left padding */
+}
+
+/* Styles for the content section within the container */
+.content {
+    flex: 1; /* Allows this section to take up available space */
+    padding-right: 20px; /* Adds spacing between content and image */
+}
+
+/* Styles for the image container */
+.image-container {
+    flex: 0 0 800px; /* Sets fixed width for the image container */
+}
+
+/* Styles for images within the image container */
+.image-container img {
+    width: 100%; /* Ensures the image takes up the full width of its container */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; /* Adds rounded corners to the image */
+}
+
+/* Footer */
+
+#footer {
+	overflow: hidden; /* Ensures content does not overflow outside the container */
+	height: 60px; /* Sets the height of the footer */
+	margin: 0 auto; /* Centers the footer horizontally */
+	padding: 0px 0 15px 0; /* Adds padding to the footer */
+	background: #E9E9E9; /* Light gray background color */
+	border-top: 5px solid #D8D8D8; /* Adds a top border to the footer */
+	font-family: 'Arvo', serif; /* Sets the font family */
+}
+
+/* Styles for paragraphs within the footer */
+#footer p {
+	margin: 0; /* Removes default margin */
+	padding-top: 20px; /* Adds top padding */
+	line-height: normal; /* Resets line height */
+	font-size: 12px; /* Sets the font size */
+	letter-spacing: 2px; /* Adds space between letters */
+	text-transform: uppercase; /* Transforms text to uppercase */
+	text-align: center; /* Centers text */
+	color: #A0A0A0; /* Sets text color */
+}
+
+/* Styles for links within the footer */
+#footer a {
+	color: #8A8A8A; /* Sets text color for links */
+}
+
+/* Banner styles */
+#banner {
+	width: 1000px; /* Sets width of the banner */
+	margin: 0px auto; /* Centers the banner horizontally */
+}
